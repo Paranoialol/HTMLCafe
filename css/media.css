@@ -1,0 +1,259 @@
+@media screen and (max-width: 1430px) {
+  .header__bg {
+    max-width: 782px;
+  }
+  .information {
+    margin-right: 12px;
+  }
+}
+@media screen and (max-width: 1215px) {
+  .location_adds-second {
+    margin-right: 0;
+  }
+  .header__bg {
+    max-width: 720px;
+  }
+  .information {
+    margin-right: 33px;
+  }
+  .firstAdd {
+    width: 90%;
+  }
+  .agent__slider {
+    max-width: 500px;
+  }
+
+  .service__info {
+    margin-left: 70px;
+  }
+  .secondAdd {
+    width: 90%;
+  }
+  .thirdAdd {
+    margin-top: 45px;
+    width: 90%;
+    margin-bottom: 23px;
+  }
+  .footer__wrapper {
+    width: 90%;
+  }
+  .adds__text-paceholder {
+    width: 400px;
+  }
+  .text__wrapper {
+    padding-left: 10px;
+  }
+  .appartments__wrapper {
+    width: 80%;
+  }
+  .appartments__gallery-item {
+    margin-bottom: 20px;
+  }
+  .appartments__gallery {
+    height: 100%;
+  }
+  .header {
+    width: 90%;
+  }
+  .about {
+    width: 80%;
+  }
+  .about__text p {
+    line-height: 1.9;
+    width: 450px;
+  }
+  .FAQ__container {
+    width: 69%;
+    max-width: 950px;
+    display: flex;
+    justify-content: space-around;
+    margin: 30px auto 20px auto;
+  }
+  .FAQ__container-item {
+    margin-bottom: 20px;
+  }
+  .how__it__works-mainTitle {
+    width: 82%;
+  }
+
+  .h5 {
+    margin-top: 50px;
+  }
+
+  .service__wrapper {
+    margin-top: 5px;
+  }
+
+  .agents__wrapper {
+    width: 80%;
+    max-width: 960px;
+  }
+
+  .slick-slider {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .menu {
+    display: none;
+  }
+  .agents__slider-item {
+    width: 350px;
+  }
+
+  .header__bg {
+    max-width: 600px;
+    max-height: 503px;
+  }
+
+  .header__footer {
+    margin-top: 54px;
+  }
+  .information {
+    margin-right: 70px;
+  }
+
+  .service__info {
+    margin-left: 5px;
+  }
+
+  .service-text {
+    font-size: 11px;
+    line-height: 1.308;
+    width: 250px;
+  }
+
+  .adds__text-paceholder p,
+  .adds__text-paceholder-second p {
+    font-size: 11px;
+    line-height: 1;
+    width: 300px;
+  }
+  .about {
+    align-items: center;
+    flex-direction: column;
+    margin: 25px auto 0 auto;
+  }
+}
+@media screen and (max-width: 900px) {
+  .firstAdd {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .adds__text-paceholder p,
+  .adds__text-paceholder-second p {
+    font-size: 14px;
+    line-height: 1;
+    width: 90%;
+  }
+
+  .h8 {
+    padding-top: 250x;
+    margin-left: 6px;
+    font-size: 22px;
+    line-height: 1;
+  }
+  .secondAdd {
+    margin-top: 0;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .thirdAdd {
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 100px;
+  }
+
+  .adds__text-paceholder {
+    padding-top: 50px;
+  }
+  .showMore {
+    margin: auto;
+  }
+
+  .header__bg {
+    max-width: 470px;
+    max-height: 436px;
+  }
+
+  .information {
+    margin-right: 66px;
+  }
+
+  .header__footer {
+    margin-top: 5px;
+  }
+
+  .buttonView a {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 880px) {
+  .service__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15px;
+  }
+
+  .service__banner {
+    width: 500px;
+  }
+
+  .appartments__wrapper {
+    width: 40%;
+  }
+
+  .appartments__wrapper {
+    margin: -89px auto;
+  }
+
+  .h3 {
+    margin-bottom: 0;
+  }
+
+  .appartments__footer {
+    margin-top: 10px;
+    margin-bottom: 100px;
+    padding-bottom: 84px;
+    flex-direction: column;
+  }
+
+  .buttonView {
+    margin-top: 20px;
+  }
+
+  .about__text p {
+    width: 90%;
+  }
+
+  .how__it__works-mainTitle p {
+    font-size: 15px;
+
+    width: 90%;
+
+    font-weight: 500;
+  }
+  .adds__text-paceholder,
+  .adds__text-placeholder-second {
+    font-size: 16px;
+    width: 100%;
+    max-width: 705px;
+  }
+
+  .adds__text-paceholder-second {
+    width: 90%;
+    max-width: 705px;
+  }
+  .h8_1 {
+    margin-right: 81px;
+  }
+}
