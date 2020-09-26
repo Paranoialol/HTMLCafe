@@ -932,8 +932,6 @@ ul {
   display: flex;
   width: 475px;
   height: 70px; background-color: rgb(255, 255, 255);
-
-
 }
 
 .subrsrcribe__button a {
@@ -947,8 +945,6 @@ ul {
   padding-left: 30px;
   width: 100%;
   height: 100%;
-  
-
 }
 
 .subBtn {
@@ -969,9 +965,8 @@ hr {
 display: flex;
 justify-content: space-between;
 flex-direction: row;
-
-
 }
+
 .h10  {
   font-size: 25px;
   font-family: "Montserrat";
@@ -984,7 +979,6 @@ flex-direction: row;
   font-family: "Work Sans";
   color: rgb(255, 255, 255);
   line-height: 1.483;
-
 }
 
 .footer__down-wrapper {
@@ -1001,7 +995,6 @@ flex-direction: row;
  
 }
 .footer__down-wrapper li a{
- 
   font-size: 13px;
   font-family: "Montserrat";
   color: rgb(255, 255, 255);
