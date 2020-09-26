@@ -38,29 +38,3 @@ $(document).ready(function () {
 		]
 	})
 });
-// $(document).ready(function () {
-
-// 	if ($('body').width() < 1100) {
-
-// 		$('.agents__slider').slick({
-// 			arrows: false,
-// 			dots: true,
-// 			slidesToShow: 2,
-// 			slidesToScroll: 2,
-// 			variableWidth: true,
-
-// 		});
-// 	} else if ($('body').width() > 1200) {
-
-// 		$('.agents__slider').slick({
-// 			arrows: false,
-// 			dots: true,
-// 			slidesToShow: 3,
-// 			slidesToScroll: 3,
-// 			autoplay: true,
-// 			autoplaySpeed: 6000,
-// 			waitForAnimate: false,
-// 			variableWidth: false,
-// 		});
-// 	}
-// });
