@@ -38,6 +38,7 @@ a {
   border-radius: 50%;
   background-color:rgb(31, 55, 61);
   z-index: 9999;
+  transition: .4s;
 }
 .burger__menu-button:hover .burger__menu-line {
   filter: brightness(0.7);
@@ -96,6 +97,7 @@ a {
   justify-content: space-between;
   align-items: center;
   list-style: none;
+  transition: .5s;
 }
 ul {
   padding-inline-start: 5px;
