@@ -12,22 +12,22 @@
   }
   #logo {
     cursor: grab;
-    color:  rgb(255, 204, 1);
+    color: rgb(255, 204, 1);
     position: absolute;
     left: 190px;
     top: 30px;
     font-size: 42px;
   }
-   .burger__menu-button {
+  .burger__menu-button {
     display: block;
     position: fixed;
-   }
+  }
   .menu {
     position: fixed;
     padding-top: 85px;
     flex-direction: column;
     align-items: flex-start;
-    background-color:rgb(31, 55, 61);
+    background-color: rgb(31, 55, 61);
     width: 100%;
     max-width: 400px;
     z-index: 9998;
@@ -41,26 +41,24 @@
   }
 
   .menu li a {
-  font-size: 24px;
-  color: #fff;
-  text-transform: uppercase;
-}
+    font-size: 24px;
+    color: #fff;
+    text-transform: uppercase;
+  }
   .indent {
     margin-left: 0;
-}
+  }
 
-.menu li:last-child a {
-   color: rgb(31, 55, 61);
-}
-.menu li:last-child {
- 
-  width: fit-content;
-  margin-bottom: 25px;
-
-}
-.menu li:last-child a:hover {
-  color: #fff;
-}
+  .menu li:last-child a {
+    color: rgb(31, 55, 61);
+  }
+  .menu li:last-child {
+    width: fit-content;
+    margin-bottom: 25px;
+  }
+  .menu li:last-child a:hover {
+    color: #fff;
+  }
 
   .location_adds-second {
     margin-right: 0;
@@ -77,7 +75,7 @@
   .agent__slider {
     max-width: 500px;
   }
-.service-text {
+  .service-text {
     width: 330px;
   }
   .service__info {
@@ -99,8 +97,8 @@
   }
   .adds__text-placeholder p,
   .adds__text-placeholder-second p {
-   width: 360px;
-   text-align: left;
+    width: 360px;
+    text-align: left;
   }
   .text__wrapper {
     padding-left: 10px;
@@ -155,9 +153,9 @@
 }
 
 @media screen and (max-width: 1080px) {
- body {
-   overflow-x: hidden;
- }
+  body {
+    overflow-x: hidden;
+  }
   .agents__slider-item {
     width: 350px;
   }
@@ -182,9 +180,10 @@
     font-size: 12px;
     line-height: 1.308;
     width: 300px;
-   
   }
-  .rent,.cell,.build {
+  .rent,
+  .cell,
+  .build {
     padding-left: 15px;
   }
 

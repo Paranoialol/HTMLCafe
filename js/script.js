@@ -54,13 +54,6 @@ function burgerMenu(selector) {
 
 	function toggleBtn() {
 		menu.toggleClass('burger__menu-active');
-		if (menu.hasClass('burger__menu-active')) {
-			$('body').css('overflow-y', 'hidden');
-
-		} else {
-			$('body').css('overflow-y', 'visible');
-		}
-
 	};
 }
 burgerMenu('.burger__menu');
