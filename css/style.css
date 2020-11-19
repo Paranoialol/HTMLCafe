@@ -1,13 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Work+Sans&display=swap");
 
-/* font-family: 'Montserrat', sans-serif;
-font-family: 'Work Sans', sans-serif; */
-
 html,
 body {
   width: 100%;
-  /* max-width: 100%; */
-  /* overflow-x: hidden; */
 }
 
 a {
@@ -31,6 +26,70 @@ a {
   cursor: initial;
   margin-right: 230px;
 }
+/* burger__menu */
+
+.burger__menu-button{
+  position: absolute;
+  display: none;
+  top: 15px;
+  left: 45px;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-color:rgb(31, 55, 61);
+  z-index: 9999;
+}
+.burger__menu-button:hover .burger__menu-line {
+  filter: brightness(0.7);
+}
+
+.burger__menu-line, .burger__menu-line:before, .burger__menu-line:after {
+  position: absolute;
+  width: 40px;
+  height: 6px;
+  background-color: #fff;
+}
+
+.burger__menu-line {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.burger__menu-line:before {
+  content: '';
+  top: -12px;
+}
+.burger__menu-line:after {
+  content: '';
+  top: 12px;
+}
+
+.burger__menu-active .burger__menu-line {
+  background-color: transparent;
+}
+.burger__menu-active .burger__menu-line:before {
+  top: 0;
+   transform: rotate(45deg);
+}
+.burger__menu-active .burger__menu-line:after {
+  top: 0;
+  transform: rotate(-45deg);
+}
+.menu__overlay {
+  display: none;
+  background-color: rgb(31, 55, 61, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 7000;
+}
+
+.burger__menu-active .menu__overlay {
+  display: block;
+}
+/* burger__menu */
 
 .menu {
   display: flex;
@@ -47,6 +106,12 @@ ul {
   color: rgb(31, 55, 61);
   line-height: 2.077;
   font-weight: 500;
+}
+.menu li a:hover{
+  color: rgb(255, 204, 1);
+}
+.menu li:last-child a:hover {
+  color: #fff;
 }
 .indent {
   margin-left: 70px;
@@ -71,7 +136,7 @@ ul {
 .header__bg {
   position: absolute;
   top: 93px;
-  left: 32.85%;
+  left: 32.25%;
   background-color: rgb(150, 190, 206);
   width: 100%;
   height: 100%;
@@ -438,15 +503,24 @@ ul {
   margin: 70px auto 100px auto;
 }
 
+
+.FAQ__container-item:hover {
+background-color: #ffcc01;
+}
 .FAQ__container-item {
   display: flex;
   flex-direction: column;
-  background-color: #ffcc01;
   width: 345px;
   height: 370px;
   box-shadow: 0px 0px 10px -1px #757575;
 }
 
+.FAQ__container-item:first-child:hover {
+  background-color: rgb(31, 55, 61);
+}
+.FAQ__container-item:first-child {
+  background-color: #ffcc01;
+}
 .item__title-firstStep {
   margin-top: 145px;
   text-align: center;
@@ -768,15 +842,15 @@ ul {
   display: flex;
   flex-direction: column;
 }
-.adds__text-paceholder {
+.adds__text-placeholder {
   display: flex;
   flex-direction: column;
   width: 100%;
   max-width: 460px;
   justify-content: center;
 }
-.adds__text-paceholder p,
-.adds__text-paceholder-second p {
+.adds__text-placeholder p,
+.adds__text-placeholder-second p {
   font-size: 13px;
   font-family: "Montserrat";
   color: rgb(31, 55, 61);
@@ -804,7 +878,7 @@ ul {
   letter-spacing: -0.025em;
 }
 
-.adds__text-paceholder-second {
+.adds__text-placeholder-second {
   display: flex;
   text-align: end;
   flex-direction: column;
@@ -846,7 +920,7 @@ ul {
   background-color: rgb(255, 204, 1);
   height: 80px;
   margin-top: -50px;
-  margin-right: -310px;
+  margin-right: -54%;
   font-size: 18px;
   font-family: "Montserrat";
   color: rgb(31, 55, 61);

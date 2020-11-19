@@ -7,6 +7,60 @@
   }
 }
 @media screen and (max-width: 1215px) {
+  #logo:hover {
+    color: #fff;
+  }
+  #logo {
+    cursor: grab;
+    color:  rgb(255, 204, 1);
+    position: absolute;
+    left: 190px;
+    top: 30px;
+    font-size: 42px;
+  }
+   .burger__menu-button {
+    display: block;
+   }
+  .menu {
+    position: absolute;
+    padding-top: 85px;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color:rgb(31, 55, 61);
+    width: 100%;
+    max-width: 400px;
+    z-index: 9998;
+    margin-top: 0;
+    left: -100%;
+    padding-left: 70px;
+  }
+
+  .burger__menu-active .menu {
+    left: 0;
+  }
+
+  .menu li a {
+  font-size: 24px;
+  color: #fff;
+  text-transform: uppercase;
+}
+  .indent {
+    margin-left: 0;
+}
+
+.menu li:last-child a {
+   color: rgb(31, 55, 61);
+}
+.menu li:last-child {
+ 
+  width: fit-content;
+  margin-bottom: 25px;
+
+}
+.menu li:last-child a:hover {
+  color: #fff;
+}
+
   .location_adds-second {
     margin-right: 0;
   }
@@ -22,7 +76,9 @@
   .agent__slider {
     max-width: 500px;
   }
-
+.service-text {
+    width: 330px;
+  }
   .service__info {
     margin-left: 70px;
   }
@@ -37,8 +93,13 @@
   .footer__wrapper {
     width: 90%;
   }
-  .adds__text-paceholder {
+  .adds__text-placeholder {
     width: 400px;
+  }
+  .adds__text-placeholder p,
+  .adds__text-placeholder-second p {
+   width: 360px;
+   text-align: left;
   }
   .text__wrapper {
     padding-left: 10px;
@@ -65,7 +126,6 @@
   .FAQ__container {
     width: 69%;
     max-width: 950px;
-    display: flex;
     justify-content: space-around;
     margin: 30px auto 20px auto;
   }
@@ -79,7 +139,6 @@
   .h5 {
     margin-top: 50px;
   }
-
   .service__wrapper {
     margin-top: 5px;
   }
@@ -95,15 +154,15 @@
 }
 
 @media screen and (max-width: 1080px) {
-  .menu {
-    display: none;
-  }
+ body {
+   overflow-x: hidden;
+ }
   .agents__slider-item {
     width: 350px;
   }
 
   .header__bg {
-    max-width: 600px;
+    max-width: 640px;
     max-height: 503px;
   }
 
@@ -111,7 +170,7 @@
     margin-top: 54px;
   }
   .information {
-    margin-right: 70px;
+    margin-right: 0px;
   }
 
   .service__info {
@@ -119,13 +178,20 @@
   }
 
   .service-text {
-    font-size: 11px;
+    font-size: 12px;
     line-height: 1.308;
-    width: 250px;
+    width: 300px;
+   
+  }
+  .rent,.cell,.build {
+    padding-left: 15px;
   }
 
-  .adds__text-paceholder p,
-  .adds__text-paceholder-second p {
+  .adds__text-placeholder {
+    margin-left: 15px;
+  }
+  .adds__text-placeholder p,
+  .adds__text-placeholder-second p {
     font-size: 11px;
     line-height: 1;
     width: 300px;
@@ -142,8 +208,8 @@
     align-items: center;
   }
 
-  .adds__text-paceholder p,
-  .adds__text-paceholder-second p {
+  .adds__text-placeholder p,
+  .adds__text-placeholder-second p {
     font-size: 14px;
     line-height: 1;
     width: 90%;
@@ -171,7 +237,7 @@
     margin-bottom: 100px;
   }
 
-  .adds__text-paceholder {
+  .adds__text-placeholder {
     padding-top: 50px;
   }
   .showMore {
@@ -242,14 +308,14 @@
 
     font-weight: 500;
   }
-  .adds__text-paceholder,
+  .adds__text-placeholder,
   .adds__text-placeholder-second {
     font-size: 16px;
     width: 100%;
     max-width: 705px;
   }
 
-  .adds__text-paceholder-second {
+  .adds__text-placeholder-second {
     width: 90%;
     max-width: 705px;
   }

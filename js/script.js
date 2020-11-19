@@ -37,4 +37,30 @@ $(document).ready(function () {
 			}
 		]
 	})
+
 });
+function burgerMenu(selector) {
+	let menu = $(selector);
+	let button = menu.find('.burger__menu-button');
+	let links = menu.find('.menu-link');
+	let cover = menu.find('.menu__overlay');
+	button.on('click', (e) => {
+		e.preventDefault();
+		toggleBtn();
+	})
+	links.on('click', () => toggleBtn());
+	cover.on('click', () => toggleBtn());
+
+
+	function toggleBtn() {
+		menu.toggleClass('burger__menu-active');
+		if (menu.hasClass('burger__menu-active')) {
+			$('body').css('overflow-y', 'hidden');
+
+		} else {
+			$('body').css('overflow-y', 'visible');
+		}
+
+	};
+}
+burgerMenu('.burger__menu');
