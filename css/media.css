@@ -276,10 +276,10 @@
 
   .appartments__wrapper {
     width: 40%;
-  }
-
-  .appartments__wrapper {
     margin: -89px auto;
+  }
+  .appartments__gallery {
+    justify-content: center;
   }
 
   .h3 {
