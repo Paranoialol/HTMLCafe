@@ -472,6 +472,7 @@ ul {
   width: 100%;
   max-width: 1110px;
   margin: 0 auto;
+
 }
 
 .h4 {
@@ -492,7 +493,8 @@ ul {
   color: rgb(31, 55, 61);
   line-height: 2.308;
   width: 420px;
-  height: 73px;
+  min-height: 73px;
+  height: fit-content;
   letter-spacing: -0.025em;
   font-weight: 500;
 }
@@ -659,7 +661,7 @@ ul {
   font-weight: 600;
 }
 
-/* 
+/*
 
 
 */
